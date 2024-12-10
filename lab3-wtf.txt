@@ -1,0 +1,10 @@
+why there may apper syntax error between the same command for windows system and Unix MacOs system.
+The result is that windows use CRLF style and Mac use LF style
+CRLF: is a combination of two characters. Carriage return (CR) is to be used in windows: \r
+returns the target to the beginning of the line without advancing to the next line. Line feed (LF) is to be used: 
+\n to move the cursor down to the next line without returning to the beginning of the line. When used together (\r\n), 
+as is the standard for Windows, they begin a new line.
+LF: In Unix systems (macOS), stands for line feed alone (LF) is used to indicate the end of a line of text.
+So when using CRLF it may not display correctly on systems using LF. 
+It is important to pay attention to the conversion of symbols and commands when transferring text files between Windows 
+and Unix systems

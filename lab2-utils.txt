@@ -1,0 +1,11 @@
+ 0: ls -t -r
+ 1: mv -- --help help.txt
+ 2: cat cat-in-1.txt - cat-in-2.txt 
+ 3: head -n 6 headtail-in.txt
+ 4: tail -n 1 headtail-in.txt
+ 5: wc -l headtail-in.txt
+ 6: tr 'a-zA-Z' 'n-za-mN-ZA-M'
+ 7: tr -d '2u'
+ 8: tee tee-out.txt
+ 9: yes "nonono" | head -n 42
+10: comm -13 menu-old.txt menu-new.txt

@@ -1,0 +1,5 @@
+setsid()will make the child become session leader. However, this male the normal command ps will not 
+leader session, thus i use command man ps to find that the ps -A can check all the session through the terminal
+and to find the PID id to find the missing one on command ps.
+
+ask for terminate the stuff we can use kill xxxxxx(PID) to shut down the stuff.
